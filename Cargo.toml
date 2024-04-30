@@ -12,6 +12,6 @@ domain   = { version = "0.10", features = ["resolv", "unstable-client-transport"
 tokio    = { version = "1.33", features = ["rt-multi-thread"] }
 
 # For era:
-daemonbase           = { version = "0.1" }
-rand                 = { version = "0.8" }
-tracing              = { version = "0.1", features = ["log"] }
+daemonbase = { version = "0.1" }
+rand       = { version = "0.8" }
+tracing    = { version = "0.1", features = ["log"] }
